@@ -82,4 +82,7 @@ void vendor_load_properties() {
 
     // description
     property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    
+    // APEX
+    property_override("ro.apex.updatable", "false");
 }
