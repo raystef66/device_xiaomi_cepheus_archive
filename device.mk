@@ -257,8 +257,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     init.affinity.sh \
-    init.insmod.sh \
-    apex_metadata.rc
+    init.insmod.sh
 
 # Input
 PRODUCT_COPY_FILES += \
