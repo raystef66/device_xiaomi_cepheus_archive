@@ -123,6 +123,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
 
+# Device Personalization Services
+PRODUCT_PACKAGES += \
+    MatchmakerPrebuilt
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
