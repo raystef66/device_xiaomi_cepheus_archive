@@ -78,10 +78,10 @@ void vendor_load_properties() {
     set_ro_product_prop("device", "cepheus");
     set_ro_product_prop("model", "MI 9");
     set_ro_product_prop("name", "cepheus");
-    set_ro_build_prop("fingerprint", "google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys");
+    set_ro_build_prop("fingerprint", "google/redfin/redfin:12/SQ1A.220205.002/8010174:user/release-keys");
 
     // description
-    property_override("ro.build.description", "redfin-user 12 SQ1A.220105.002 7961164 release-keys");
+    property_override("ro.build.description", "redfin-user 12 SQ1A.220205.002 8010174 release-keys");
 
     // APEX
     property_override("ro.apex.updatable", "false");
