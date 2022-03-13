@@ -1109,4 +1109,8 @@
     <!-- Whether device supports sensor based doze customizations -->
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dozePulseTilt">true</bool>
+
+    <!-- Screen off UDFPS -->
+    <bool name="config_supportScreenOffUdfps">true</bool>
+
 </resources>
