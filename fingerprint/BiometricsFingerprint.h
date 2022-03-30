@@ -71,8 +71,8 @@ struct BiometricsFingerprint : public IBiometricsFingerprint, public IXiaomiFing
     Return<RequestStatus> setActiveGroup(uint32_t gid, const hidl_string& storePath) override;
     Return<RequestStatus> authenticate(uint64_t operationId, uint32_t gid) override;
 	
-	Return<void> onShowUdfpsOverlay() override;
-    Return<void> onHideUdfpsOverlay() override;
+    Return<void> onShowUdfpsOverlay();
+    Return<void> onHideUdfpsOverlay();
 
     Return<int32_t> extCmd(int32_t cmd, int32_t param) override;
 
