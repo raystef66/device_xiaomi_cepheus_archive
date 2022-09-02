@@ -1,5 +1,6 @@
 type init-insmod-sh, domain;
 type init-insmod-sh_exec, exec_type, vendor_file_type, file_type;
+type vendor_debugfs_wlan, sysfs_type, fs_type;
 
 init_daemon_domain(init-insmod-sh)
 
@@ -26,7 +27,5 @@ allow init-insmod-sh {
 }:file r_file_perms;
 
 allow init-insmod-sh {
-  vendor_debugfs_ipc
-  vendor_debugfs_wlan
   vendor_sysfs_slpi
 }:dir search;
